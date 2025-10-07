@@ -31,8 +31,17 @@
   background: #5e5ee9;
   color: #fff;
 }
+.points {
+  color: white;
+  margin-top: 10px;
+}
+
+.each-points {
+  margin-top: 15px;
+}
+
 .block__home-banner-buttons-get-started {
-  background: #5e5ee9;
+  background: #ffffff;
   box-shadow: 0 6px 20px -6px #1e2e4826;
   border-radius: 3px;
   text-decoration: unset;
@@ -41,15 +50,15 @@
   font-weight: 600;
   font-size: 14px;
   line-height: 16px;
-  color: #fff;
+  color: #486feb;
   text-align: center;
 }
 .block__home-banner-buttons-get-started:hover {
-  background: #4949c8;
+  background: #ffffff;
 }
 .block__home-banner-buttons-get-started:focus {
-  background: #4b4ccb;
-  box-shadow: 0 0 20px -6px #4b4ccb;
+  background: #ffffff;
+  box-shadow: 0 0 20px -6px #1e2e4826;
 }
 .block__home-banner-buttons-mobile-sticky {
   display: none;

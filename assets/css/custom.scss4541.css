@@ -193,6 +193,7 @@ svg {
   .description {
   font-weight: 400;
 }
+
 .announcement_bar_section
   .announcement_container
   .announcement_list
@@ -314,6 +315,9 @@ svg {
   column-gap: unset;
   flex-wrap: wrap;
   align-items: center;
+  background: linear-gradient(0deg, #486feb, #486feb),
+    linear-gradient(92.19deg, #3c83f6 0%, #7c3bed 50.97%);
+  border-bottom: 0.5px solid #ffffffb2;
 }
 @media screen and (max-width: 1400px) and (min-width: 1085px) {
   .section-header .header-wrapper .header {
@@ -405,7 +409,7 @@ svg {
   font-weight: 400;
   font-size: 16px;
   line-height: 33px;
-  color: #000;
+  color: white;
   text-decoration: none;
   text-underline-offset: unset;
 }
@@ -466,7 +470,7 @@ svg {
   .header__icons
   .header_start_button
   .get_started_button {
-  background: #5e5ee9;
+  background: #ffffff;
   box-shadow: 0 6px 20px -6px #1e2e4826;
   border-radius: 3px;
   text-decoration: unset;
@@ -477,7 +481,7 @@ svg {
   font-size: 14px;
   line-height: 16px;
   text-transform: capitalize;
-  color: #fff;
+  color: #486feb;
 }
 @media screen and (max-width: 1450px) and (min-width: 1401px) {
   .section-header
@@ -542,7 +546,7 @@ svg {
 }
 .home_banner_section .banner_hero .home_banner .hero_banner {
   padding-top: 50px;
-  padding-bottom: 50px;
+  /* padding-bottom: 50px; */
 }
 @media screen and (max-width: 767px) {
   .home_banner_section .banner_hero .home_banner .hero_banner {
@@ -683,7 +687,7 @@ svg {
   font-style: italic;
   font-size: 55px;
   line-height: 78px;
-  color: #000;
+  color: white;
   margin: 0;
   display: inline-block;
   position: relative;
@@ -750,7 +754,7 @@ svg {
   .main_sub_heading {
   font-size: 55px;
   line-height: 78px;
-  color: #000;
+  color: white;
   margin: 0 0 10px;
   font-weight: 400;
 }
@@ -831,7 +835,7 @@ svg {
   p {
   font-size: 16px;
   line-height: 33px;
-  color: #000;
+  color: white;
   margin: 0;
   font-display: swap;
 }
@@ -3781,14 +3785,15 @@ svg {
   .details
   .schedule_call
   .call_btn {
-  border: 1px solid #5e5ee9;
+  /* border: 1px solid #5e5ee9; */
+  background-color: #a0d766;
   box-shadow: 0 6px 20px -6px #1e2e4826;
   border-radius: 3px;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 33px;
-  color: #5e5ee9;
+  color: #ffffff;
   text-decoration: none;
   padding: 14px 44px;
   display: inline-block;
@@ -4270,6 +4275,11 @@ svg {
     br {
     display: none;
   }
+}
+.app-used-text{
+  font-size: 20px;
+  font-weight: 700;
+  color: #486FEB;
 }
 .image_with_slider
   .image_slider_container
@@ -4833,7 +4843,8 @@ svg {
   max-width: 100%;
   height: 100%;
   width: 100%;
-  object-fit: contain;
+  border-radius:16px;
+  /* object-fit: contain; */
 }
 /* @media screen and (max-width: 767px) {
   .image_with_slider
@@ -7542,7 +7553,7 @@ svg {
   .member_details
   .bottom_button
   .call_btn {
-  background: #5e5ee9;
+  background: #a0d766;
   box-shadow: 0 6px 20px -6px #1e2e4826;
   border-radius: 3px;
   text-decoration: unset;
@@ -7609,7 +7620,7 @@ svg {
   .member_details
   .bottom_button
   .call_btn:hover {
-  background: #4949c8;
+  background: #a0d766;
 }
 .site_team_section
   .site_team
@@ -7621,8 +7632,8 @@ svg {
   .member_details
   .bottom_button
   .call_btn:focus {
-  background: #4b4ccb;
-  box-shadow: 0 0 20px -6px #4b4ccb;
+  background: #a0d766;
+  box-shadow: 0 0 20px -6px #a0d766;
 }
 .shopify_store_tabs_section .store_tabs {
   display: flex;
@@ -20055,14 +20066,14 @@ svg {
   .right_content
   .content
   .btn {
-  border: 1px solid #5e5ee9;
+  border: 1px solid #7C3BED;
   box-shadow: 0 6px 20px -6px #1e2e4826;
   border-radius: 3px;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 33px;
-  color: #5e5ee9;
+  color: #7C3BED;
   text-decoration: none;
   padding: 14px 20px;
   display: inline-block;
@@ -28570,7 +28581,7 @@ cart-drawer
   .grid_block
   .call_bottom_btn
   .call_btn {
-  background: #5e5ee9;
+  background: #a0d766;
   box-shadow: 0 6px 20px -6px #1e2e4826;
   border-radius: 3px;
   text-decoration: unset;

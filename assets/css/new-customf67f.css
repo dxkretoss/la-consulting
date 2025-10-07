@@ -104,21 +104,21 @@
   }
 }
 .page-hydrogen-oxygen .schedule_call .call_btn:hover {
-  background: #5e5ee9 !important;
+  background: #a0d766 !important;
   color: #fff !important;
 }
 .page-hydrogen-oxygen .schedule_call .call_btn svg path {
   fill: #fff;
 }
 .schedule_call .call_btn:hover {
-  background: #5e5ee9 !important;
+  background: #a0d766 !important;
   color: #fff !important;
 }
 .schedule_call .call_btn:hover path {
   fill: #fff;
 }
 .merchants_solution .started_btn:hover {
-  background: #5e5ee9 !important;
+  background: #a0d766 !important;
   color: #fff !important;
 }
 .merchants_solution .started_btn:hover svg path {
@@ -1384,7 +1384,7 @@ ul.list-menu {
   background: #e8e8ed66;
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
-  display: none!important;
+  display: none !important;
 }
 
 .block__mega-menu-box {

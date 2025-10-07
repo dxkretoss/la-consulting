@@ -40,7 +40,7 @@
   line-height: 50px;
   margin: 0 0 20px;
 }
-.block__task-video-detail-heading strong{
+.block__task-video-detail-heading strong {
   font-weight: 700;
 }
 .block__task-video-detail-description p {
@@ -68,7 +68,8 @@
   text-decoration: none;
 }
 .block__task-video-detail-button-one:hover {
-  background: #4949c8;
+  background: linear-gradient(0deg, #486feb, #486feb),
+    linear-gradient(92.19deg, #3c83f6 0%, #7c3bed 50.97%);
 }
 .block__task-video-detail-button-one svg {
   margin-left: 15px;

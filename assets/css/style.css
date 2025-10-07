@@ -1083,8 +1083,9 @@ summary.list-menu__item {
 
 .section_template--21354087547164__16eae06d-4890-4274-ab25-a99888f3868b
   .banner_hero {
-  background: #f1fbed;
-  border-radius: 0 0 16px 16px;
+  background: linear-gradient(0deg, #486feb, #486feb),
+    linear-gradient(92.19deg, #3c83f6 0%, #7c3bed 50.97%);
+  /* border-radius: 0 0 16px 16px; */
 }
 
 @media screen and (max-width: 767px) {
@@ -1135,7 +1136,7 @@ summary.list-menu__item {
 }
 
 .single_block .block_552dd285-1390-484f-905d-5df7aba331c8 .block_description {
-  background: #e9ddd2;
+  background: #de88cf;
 }
 
 .single_block
@@ -1180,7 +1181,7 @@ summary.list-menu__item {
 }
 
 .single_block .block_a6b6aa83-0e8d-48f2-8081-76db7d4c8af8 {
-  background-color: #ebe9dd;
+  background-color: #f8f7f5;
 }
 
 .single_block .block_a6b6aa83-0e8d-48f2-8081-76db7d4c8af8 p,
@@ -1190,7 +1191,7 @@ summary.list-menu__item {
 }
 
 .single_block .block_a6b6aa83-0e8d-48f2-8081-76db7d4c8af8 .block_description {
-  background: #dfddd2;
+  background: #a1d767;
 }
 
 .single_block
@@ -1305,11 +1306,11 @@ summary.list-menu__item {
 }
 
 .single_block .block_image_NhjcbC {
-  background-color: #f6f5f3;
+  background-color: #ffe6e7;
 }
 
 .single_block .block_image_NhjcbC .block_description {
-  background: #e7e7e7;
+  background: #da2a2c;
 }
 
 .single_block .block_image_NhjcbC .block_content .block_left_content {
@@ -1340,11 +1341,11 @@ summary.list-menu__item {
 }
 
 .single_block .block_image_RC97Hh {
-  background-color: #f5f5f5;
+  background-color: #f1d0ff;
 }
 
 .single_block .block_image_RC97Hh .block_description {
-  background: #e7e7e7;
+  background: #ab57cf;
 }
 
 .single_block .block_image_RC97Hh .block_content .block_left_content {
@@ -1375,11 +1376,11 @@ summary.list-menu__item {
 }
 
 .single_block .block_image_zpKQch {
-  background-color: #e9f3ea;
+  background-color: #e3f7ff;
 }
 
 .single_block .block_image_zpKQch .block_description {
-  background: #dde7de;
+  background: #96e3ff;
 }
 
 .single_block .block_image_zpKQch .block_content .block_left_content {
@@ -2370,8 +2371,16 @@ body.gradient.template_type_index.overflow-hidden {
   text-decoration: unset;
   color: #fff;
 }
+
+.portfolio-main-btn {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
 a.portfolio_btn {
-  background: #5e5ee9;
+  background: linear-gradient(0deg, #486feb, #486feb),
+    linear-gradient(92.19deg, #3c83f6 0%, #7c3bed 50.97%);
+
   box-shadow: 0 6px 20px -6px #1e2e4826;
   padding: 5px 15px;
   color: #fff;
@@ -2380,7 +2389,7 @@ a.portfolio_btn {
   border-radius: 3px;
   font-weight: 500;
   letter-spacing: 0px;
-  margin-bottom: 12px;
+  /* margin-bottom: 12px; */
   display: inline-block;
 }
 div#faqs {
@@ -2440,7 +2449,7 @@ div#faqs {
   animation: continuousRotate 8s infinite linear;
 }
 .digital_work .container_content {
-  background: #f1fbed;
+  background: #dbccf6;
   padding: 40px;
   border-radius: 15px;
 }
