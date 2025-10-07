@@ -1967,7 +1967,9 @@ summary.list-menu__item {
   display: flex;
   gap: 20px;
   align-items: center;
+  position: relative;
 }
+
 .all_services .service:hover {
   border: solid 1px transparent;
   background: #f3f4ff;
@@ -1979,8 +1981,27 @@ summary.list-menu__item {
   line-height: 38px;
   margin: 0px;
 }
+.service-all-bedge {
+  display: flex;
+  gap: 8px;
+}
+.services_data span {
+  font-size: 16px;
+  color: #282c34;
+}
+.service-bedge-header {
+  color: #282c34;
+  font-weight: 600;
+}
+
+.service-bedge {
+  background-color: #3c83f61a;
+  border-radius: 8px;
+  padding: 4px 8px;
+}
 .services_data a {
-  background: #5e5ee9;
+  background: linear-gradient(0deg, #486feb, #486feb),
+    linear-gradient(92.19deg, #3c83f6 0%, #7c3bed 50.97%);
   box-shadow: 0 6px 20px -6px #1e2e4826;
   padding: 5px 15px;
   color: #fff;
@@ -2008,11 +2029,13 @@ summary.list-menu__item {
 .services_data ul li p {
   margin: 0px;
   font-size: 15px;
+  color: #000000bf;
 }
 .services_icon img {
-  max-width: 250px;
-  filter: grayscale(1);
-  transition: filter 0.3s ease-in;
+  align-items: end;
+  position: absolute;
+  top: 25px;
+  right: 25px;
 }
 .services_data ul li span {
   background: #e1e1fff7;

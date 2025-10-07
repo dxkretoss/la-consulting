@@ -3635,7 +3635,7 @@ svg {
   .services_block
   .blocks {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   align-items: center;
 }
 @media screen and (max-width: 1024px) and (min-width: 768px) {
@@ -3886,7 +3886,9 @@ svg {
   .column_image
   .image
   img {
-  width: 100%;
+  width: 220px;
+  height: 448px;
+  margin-bottom: 44px;
 }
 .image_with_slider .image_slider_container {
   width: 100%;
