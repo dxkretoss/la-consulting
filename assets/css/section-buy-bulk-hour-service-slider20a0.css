@@ -1,0 +1,207 @@
+.block__buy-bulk-hour-speed-plus .block__audit-service-card-right-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: left;
+}
+.block__buy-bulk-hour-gamify-cart-drawer
+  .block__audit-service-card-images-slider-conttent {
+  width: 20%;
+}
+.block__buy-bulk-hour-gamify-cart-drawer .block__audit-service-card-images {
+  gap: 0;
+}
+.block__buy-bulk-hour-service-slider .slick-arrow:hover svg {
+  transform: scale(1.1);
+}
+.block__buy-bulk-hour-service-slider .slick-arrow svg {
+  transition: all 0.4s ease;
+}
+.block__buy-bulk-hour-service-slider .slick-arrow {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #1a1a1a;
+  border: 5px solid #ffffff;
+  box-shadow: 0 6px 20px -6px #1e2e4826;
+  border-radius: 40px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  cursor: pointer;
+}
+.block__buy-bulk-hour-service-slider .slick-prev {
+  left: -35px;
+}
+.block__buy-bulk-hour-service-slider .slick-next {
+  right: -35px;
+}
+.block__buy-bulk-hour-speed-plus-btn-block {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 15px;
+}
+.block__buy-bulk-hour-speed-plus-btn-block img {
+  max-width: 148px;
+  height: auto;
+}
+.block__buy-bulk-hour-speed-plus .block__audit-service-card-details {
+  max-width: unset;
+}
+.block__buy-bulk-hour-speed-plus
+  .block__audit-service-card-details-description {
+  max-width: 537px;
+}
+.block__audit-service-card-right-mobile-img {
+  display: none !important;
+}
+.block__audit-service-card-details-heading strong{
+  font-weight: 700;
+}
+.block__audit-service-card-details-heading {
+  font-weight: 400;
+}
+@media screen and (max-width: 1560px) and (min-width: 1401px) {
+  .block__audit-service-card-details-heading {
+    font-style: normal;
+    font-size: 33px;
+    line-height: 52px;
+    color: #000;
+    font-weight: 400;
+  }
+  .block__audit-service-card-details-btn {
+    font-size: 15px;
+    padding: 14px 25px;
+  }
+  .block__buy-bulk-hour-speed-plus-btn-block img {
+    max-width: 130px;
+  }
+}
+@media screen and (max-width: 1400px) and (min-width: 1201px) {
+  .block__audit-service-card-details-heading {
+    font-style: normal;
+    font-size: 32px;
+    line-height: 50px;
+    color: #000;
+  }
+  .block__audit-service-card-details-btn {
+    font-size: 13px;
+    line-height: 25px;
+    padding: 14px 20px;
+  }
+  .block__buy-bulk-hour-speed-plus-btn-block img {
+    max-width: 110px;
+  }
+}
+@media screen and (max-width: 1200px) and (min-width: 1025px) {
+  .block__audit-service-card-details-heading {
+    font-size: 24px;
+    line-height: 35px;
+  }
+  .block__audit-service-card-details-btn {
+    font-size: 12px;
+    line-height: 25px;
+    padding: 14px;
+  }
+  .block__buy-bulk-hour-speed-plus-btn-block img {
+    max-width: 90px;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .block__audit-service-card-details-btn {
+    font-size: 12px;
+    line-height: 33px;
+    padding: 8px 20px;
+  }
+  .block__audit-service-card-details-heading {
+    font-size: 30px;
+    line-height: 45px;
+  }
+}
+@media (max-width: 1699px) {
+  .block__buy-bulk-hour-service-slider .slick-next {
+    right: 0;
+  }
+  .block__buy-bulk-hour-service-main {
+    padding: 0 15px;
+  }
+  .block__buy-bulk-hour-service-slider .slick-next {
+    right: -12px;
+  }
+  .block__buy-bulk-hour-service-slider .slick-prev {
+    left: -12px;
+  }
+  .block__buy-bulk-hour-service-slider .slick-arrow {
+    width: 50px;
+    height: 50px;
+    border: 4px solid #ffffff;
+  }
+}
+@media (max-width: 1400px) {
+  .block__buy-bulk-hour-speed-plus .block__audit-service-card-left-box {
+    padding-right: 50px;
+  }
+}
+@media (max-width: 1199px) {
+  .block__buy-bulk-hour-speed-plus .block__audit-service-card-left-box {
+    padding-right: 20px;
+  }
+  .block__buy-bulk-hour-service-slider {
+    padding-bottom: 90px;
+  }
+  .block__buy-bulk-hour-service-slider .slick-arrow {
+    top: auto;
+    bottom: 0;
+    transform: translate(-50%);
+  }
+  .block__buy-bulk-hour-service-slider .slick-prev {
+    left: calc(50% - 35px);
+  }
+  .block__buy-bulk-hour-service-slider .slick-next {
+    left: calc(50% + 35px);
+  }
+}
+@media (max-width: 768px) {
+  .block__buy-bulk-hour-speed-plus .block__audit-service-card-left-box {
+    padding-right: 25px;
+  }
+}
+@media (max-width: 767px) {
+  .block__buy-bulk-hour-speed-plus-btn-block {
+    gap: 20px;
+  }
+  .block__audit-service-card-box {
+    border-radius: unset;
+    height: unset;
+  }
+  .block__buy-bulk-hour-speed-plus
+    .block__audit-service-card-right-box
+    img:not(.block__audit-service-card-right-mobile-img) {
+    display: none;
+  }
+  .block__buy-bulk-hour-speed-plus
+    .block__audit-service-card-right-box
+    img.block__audit-service-card-right-mobile-img {
+    display: block !important;
+    object-position: center;
+  }
+  .block__buy-bulk-hour-speed-plus .block__audit-service-card-left-box {
+    padding-bottom: 0;
+  }
+}
+@media (max-width: 370px) {
+  .block__buy-bulk-hour-speed-plus .block__audit-service-card-left-box {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .block__buy-bulk-hour-speed-plus .block__audit-service-card-details-btn {
+    padding: 14px;
+  }
+  .block__buy-bulk-hour-service-slider {
+    padding-bottom: 70px;
+  }
+}

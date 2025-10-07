@@ -1,0 +1,203 @@
+.block__task-quote-video-box {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+  gap: 100px;
+  border-radius: 16px;
+  margin: 0 0 80px;
+}
+.block__task-video-box {
+  width: calc(52% - 50px);
+  position: relative;
+}
+.block__task-video-box-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+.video-landing-box-image-wrapper-cover-video-tag {
+  width: 100%;
+  vertical-align: middle;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 100%;
+  object-fit: cover;
+}
+.block__task-video-detail-box {
+  width: calc(48% - 50px);
+}
+.block__task-video-detail-box-content {
+  width: 100%;
+  max-width: 547px;
+  padding: 38px 0;
+}
+.block__task-video-detail-heading {
+  color: #000;
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 50px;
+  margin: 0 0 20px;
+}
+.block__task-video-detail-heading strong{
+  font-weight: 700;
+}
+.block__task-video-detail-description p {
+  color: #000c;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 33px;
+  margin: 0;
+}
+.block__task-video-detail-buttons {
+  display: flex;
+  gap: 15px;
+  margin: 32px 0 0;
+}
+.block__task-video-detail-button-one {
+  border-radius: 3px;
+  background: #5e5ee9;
+  box-shadow: 0 6px 20px -6px #1e2e4826;
+  padding: 14px 44px;
+  display: inline-block;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 33px;
+  text-decoration: none;
+}
+.block__task-video-detail-button-one:hover {
+  background: #4949c8;
+}
+.block__task-video-detail-button-one svg {
+  margin-left: 15px;
+}
+.block__task-video-detail-button-two {
+  border: 1px solid #5e5ee9;
+  box-shadow: 0 6px 20px -6px #1e2e4826;
+  border-radius: 3px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 33px;
+  color: #5e5ee9;
+  text-decoration: none;
+  padding: 14px 44px;
+  display: inline-block;
+  text-align: center;
+}
+.block__task-video-detail-button-two svg {
+  margin-left: 15px;
+}
+.block__task-video-detail-button-two:hover {
+  background: #5e5ee9 !important;
+  color: #fff !important;
+}
+.block__task-video-detail-button-two:hover path {
+  fill: #fff;
+}
+@media screen and (max-width: 1400px) and (min-width: 768px) {
+  .block__task-quote-video-box {
+    padding: 50px 30px;
+  }
+  .block__task-quote-video-box {
+    gap: 50px;
+  }
+  .block__task-video-box {
+    width: calc(52% - 25px);
+  }
+  .block__task-video-detail-box {
+    width: calc(48% - 25px);
+  }
+}
+@media screen and (max-width: 1500px) and (min-width: 1401px) {
+  .block__task-video-detail-button-one,
+  .block__task-video-detail-button-two {
+    padding: 14px 30px;
+  }
+}
+@media screen and (max-width: 1400px) and (min-width: 1201px) {
+  .block__task-video-detail-button-one,
+  .block__task-video-detail-button-two {
+    padding: 14px 25px;
+  }
+  .block__task-video-detail-heading {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+@media screen and (max-width: 1200px) and (min-width: 1025px) {
+  .block__task-video-detail-button-one,
+  .block__task-video-detail-button-two {
+    padding: 14px;
+  }
+  .block__task-video-detail-heading {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .block__task-video-detail-heading {
+    font-size: 25px;
+    line-height: 40px;
+  }
+  .block__task-video-detail-buttons {
+    flex-wrap: wrap;
+  }
+  .block__task-video-detail-button-one {
+    width: 100%;
+    text-align: center;
+  }
+  .block__task-video-detail-button-two {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .block__task-video-box,
+  .block__task-video-detail-box {
+    width: 100%;
+  }
+  .block__task-quote-video {
+    padding: 0 0px;
+  }
+  .block__task-quote-video-box {
+    padding: 20px;
+    gap: 0;
+    margin: 0 0 60px;
+  }
+  .block__task-video-box-play {
+    width: 40px;
+    height: 40px;
+  }
+  .block__task-video-box-play svg {
+    width: 100%;
+    height: 100%;
+  }
+  .block__task-video-detail-box-content {
+    padding: 20px 0 0;
+    max-width: 100%;
+  }
+  .block__task-video-detail-heading {
+    font-size: 24px;
+    line-height: 34px;
+    margin: 0 0 16px;
+  }
+  .block__task-video-detail-description p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .block__task-video-detail-buttons {
+    flex-wrap: wrap;
+  }
+  .block__task-video-detail-button-one {
+    width: 100%;
+    text-align: center;
+  }
+  .block__task-video-detail-button-two {
+    width: 100%;
+  }
+  .template_type_index .partner_logo {
+    margin: 0 !important;
+  }
+}

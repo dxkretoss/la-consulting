@@ -1,0 +1,150 @@
+.block__our-process-box {
+  padding: 80px 30px 80px;
+}
+.block__our-process-heading {
+  color: #000;
+  font-size: 52px;
+  font-weight: 600;
+  line-height: 46px;
+  margin: 0 0 50px;
+  text-align: center;
+}
+.block__our-process-details-heading {
+  color: #000;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 30px 0 8px;
+}
+.block__our-process-details-description p {
+  color: #000c;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 0;
+  letter-spacing: -0.1px;
+}
+.block__our-process-details-description p a {
+  text-decoration: none;
+  cursor: unset;
+  font-size: 21px;
+}
+.block__our-process-listing {
+  white-space: nowrap;
+  overflow: auto;
+  cursor: grab;
+}
+.block__our-process-listing-box {
+  display: inline-flex;
+  width: 348px;
+  padding-left: 60px;
+  white-space: normal;
+}
+.template_migrate-salesforce .block__our-process-listing-box {
+  padding-left: 0;
+  padding-right: 60px;
+}
+.block__our-process-listing::-webkit-scrollbar {
+  display: none;
+}
+.block__our-process-listing {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.block__our-process-icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.block__our-process-icon:after {
+  content: "";
+  width: calc(100% - 32px);
+  height: 1px;
+  border-top: 1px dashed #000;
+  display: block;
+}
+.block__our-process-buttons {
+  display: flex;
+  gap: 16px;
+  margin-top: 40px;
+}
+@media screen and (max-width: 1700px) {
+  .block__our-process-box {
+    padding: 80px 30px 80px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .template_migrate-salesforce .block__our-process-heading {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .template_migrate-salesforce .block__our-process-details-heading {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .block__our-process-listing {
+    white-space: unset;
+    overflow: unset;
+    cursor: unset;
+    padding: 0 10px;
+  }
+  .block__our-process-listing-box {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .block__our-process-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .block__our-process-icon {
+    width: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .block__our-process-icon img {
+    width: 100%;
+  }
+  .block__our-process-details {
+    width: calc(100% - 60px);
+  }
+  .block__our-process-details-heading {
+    font-size: 18px;
+    margin: 0 0 8px;
+  }
+  .block__our-process-details-description p {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: normal;
+    padding: 0 5px 0 0;
+  }
+  .block__our-process-details-description p a {
+    text-decoration: none;
+    cursor: unset;
+    font-size: 15px;
+  }
+  .block__our-process-icon:after {
+    width: 1px;
+    height: 100%;
+    border-top: none;
+    border-right: 1px dashed #000;
+  }
+  .block__our-process-heading {
+    font-size: 24px;
+    margin: 0 0 26px;
+  }
+  .block__our-process-box {
+    padding: 60px 0;
+  }
+  .block__our-process-listing-box:not(:first-child) {
+    margin: 20px 0 0;
+  }
+  .block__our-process-buttons {
+    padding-left: 0;
+    justify-content: center;
+  }
+}
