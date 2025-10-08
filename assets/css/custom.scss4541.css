@@ -562,6 +562,7 @@ svg {
   .banner_left_content {
   width: 45%;
   padding-left: 40px;
+  margin-bottom: 15px;
   padding-right: 4%;
 }
 @media screen and (max-width: 767px) {
@@ -591,7 +592,7 @@ svg {
     .banner_content {
     padding-left: 30px;
     padding-top: 60px;
-    padding-bottom: 60px;
+    /* padding-bottom: 60px; */
   }
 }
 @media screen and (max-width: 1024px) and (min-width: 768px) {
@@ -1401,7 +1402,7 @@ svg {
   .home_banner
   .hero_banner
   .banner_right_content {
-  align-self: unset;
+  align-self: flex-end;
   width: 55%;
 }
 @media screen and (max-width: 767px) {

@@ -1959,6 +1959,7 @@ summary.list-menu__item {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 30px;
+  padding: 15px;
 }
 .all_services .service {
   border: solid 1px #dcdcdc;
@@ -2052,7 +2053,7 @@ h2.block__our-services-heading,
 h2.block__faqs-heading {
   font-size: 35px;
   margin-top: 50px;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
 }
 .page_thankyou {
   background: #efffef;

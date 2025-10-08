@@ -5,6 +5,7 @@
   padding: 0px 50px;
   align-items: center;
   border-radius: 16px;
+  padding-top: 80px;
 }
 .block__migrate-home-form-content {
   width: calc(48% - 50px);
