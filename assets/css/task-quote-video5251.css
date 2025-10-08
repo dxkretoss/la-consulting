@@ -57,7 +57,7 @@
 }
 .block__task-video-detail-button-one {
   border-radius: 3px;
-  background: #5e5ee9;
+  background: linear-gradient(92.19deg, #3c83f6 0%, #7c3bed 50.97%);
   box-shadow: 0 6px 20px -6px #1e2e4826;
   padding: 14px 44px;
   display: inline-block;
@@ -68,8 +68,7 @@
   text-decoration: none;
 }
 .block__task-video-detail-button-one:hover {
-  background: linear-gradient(0deg, #486feb, #486feb),
-    linear-gradient(92.19deg, #3c83f6 0%, #7c3bed 50.97%);
+  background: linear-gradient(92.19deg, #3c83f6 0%, #7c3bed 50.97%);
 }
 .block__task-video-detail-button-one svg {
   margin-left: 15px;

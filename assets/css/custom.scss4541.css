@@ -9934,9 +9934,9 @@ svg {
     padding: 0;
   }
 }
-.site_footer_section .site_footer .footer_top_bar .footer_left_content {
+/* .site_footer_section .site_footer .footer_top_bar .footer_left_content {
   width: 20%;
-}
+} */
 @media screen and (max-width: 767px) {
   .site_footer_section .site_footer .footer_top_bar .footer_left_content {
     width: 100%;

@@ -47,7 +47,7 @@
   margin: 0;
 }
 .block__audit-service-card-details-btn {
-  background: #5e5ee9;
+  background: linear-gradient(92.19deg, #3c83f6 0%, #7c3bed 50.97%);
   display: inline-block;
   box-shadow: 0 6px 20px -6px #1e2e4826;
   font-size: 16px;
@@ -93,8 +93,10 @@
   flex-wrap: wrap;
   gap: 20px;
   transform-origin: 65% 0;
-  transform: translate3d(40%, 0, 0) scale3d(1.5, 1.5, 1) rotateX(0)
-    rotateY(-9deg) rotate(32deg) skew(0);
+  padding-left: 20px;
+  background: linear-gradient(92.19deg, #3c83f6 0%, #7c3bed 50.97%);
+  /* transform: translate3d(40%, 0, 0) scale3d(1.5, 1.5, 1) rotateX(0)
+    rotateY(-9deg) rotate(32deg) skew(0); */
 }
 .block__audit-service-card-images-slider-conttent {
   width: calc(33.33% - 13.33px);
