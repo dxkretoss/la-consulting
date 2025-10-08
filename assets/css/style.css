@@ -2375,7 +2375,8 @@ body.gradient.template_type_index.overflow-hidden {
 .portfolio-main-btn {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 10px;
+  padding-left: 10px;
 }
 a.portfolio_btn {
   background: linear-gradient(92.19deg, #3c83f6 0%, #7c3bed 50.97%);

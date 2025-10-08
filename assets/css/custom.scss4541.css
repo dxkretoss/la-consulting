@@ -1413,7 +1413,7 @@ svg {
     .banner_right_content {
     width: 100%;
     margin-top: 30px;
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
   }
 }
 .home_banner_section
