@@ -2630,7 +2630,8 @@ div#faqs {
 
 .ready-start-container {
   background: linear-gradient(92.19deg, #3c83f6 0%, #7c3bed 50.97%);
-  height: 375px;
+  /* height: 375px; */
+  padding-bottom: 40px;
   margin-top: 88px;
 }
 .ready-start-text {

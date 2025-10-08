@@ -572,7 +572,7 @@ svg {
     .hero_banner
     .banner_left_content {
     width: 100%;
-    padding-left: 0;
+    padding-left: 20px;
   }
 }
 .home_banner_section
@@ -5225,7 +5225,7 @@ svg {
   }
 }
 .partner_logo_section .partner_logo .logo_list .center_logo img {
-  height:180px;
+  height: 180px;
   width: 250px;
 }
 .partner_logo_section .partner_logo .logo_list .logos {
@@ -5239,6 +5239,11 @@ svg {
 @media screen and (max-width: 767px) {
   .partner_logo_section .partner_logo .logo_list .logos {
     border-radius: unset;
+  }
+
+  .partner_logo_section .partner_logo .logo_list .center_logo img {
+    height: 100%;
+    width: 100%;
   }
 }
 .partner_logo_section .partner_logo .logo_list .logos .block_logos {
