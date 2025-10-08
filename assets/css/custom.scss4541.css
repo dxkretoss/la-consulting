@@ -51,7 +51,7 @@ h5,
   letter-spacing: normal;
 }
 .container_content {
-  /* width: calc(100% - 120px); */
+  width: calc(100% - 120px);
   margin: 0 auto;
 }
 @media screen and (max-width: 1400px) {
@@ -561,7 +561,7 @@ svg {
   .hero_banner
   .banner_left_content {
   width: 45%;
-  padding-left: 40px;
+  /* padding-left: 40px; */
   margin-bottom: 15px;
   padding-right: 4%;
 }
