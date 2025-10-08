@@ -10912,7 +10912,7 @@ svg {
 }
 #menu-drawer {
   width: 100%;
-  max-width: 420px;
+  /* max-width: 420px; */
 }
 #menu-drawer .menu-drawer__inner-container .menu-drawer__navigation-container {
   background: #f1fbed;

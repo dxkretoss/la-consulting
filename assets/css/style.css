@@ -2051,6 +2051,7 @@ summary.list-menu__item {
 h2.block__our-services-heading,
 h2.block__faqs-heading {
   font-size: 35px;
+  margin-top: 50px;
   margin-bottom: 50px;
 }
 .page_thankyou {
@@ -2590,7 +2591,7 @@ div#faqs {
   h2.block__faqs-heading {
     font-size: 22px;
     margin-bottom: 30px;
-    margin-top: 0px;
+    margin-top: 30px;
   }
   .block__audit-service-card-box {
     margin: 50px 0 0;
@@ -2790,6 +2791,7 @@ div#faqs {
 @media (max-width: 1024px) {
   .our-process {
     grid-template-columns: repeat(2, 1fr); /* 2 columns on medium screens */
+    padding: 15px;
   }
 }
 
@@ -2797,6 +2799,7 @@ div#faqs {
 @media (max-width: 600px) {
   .our-process {
     grid-template-columns: 1fr; /* 1 column on small screens */
+    padding: 15px;
   }
 }
 
