@@ -8,7 +8,7 @@
   max-width: 647px;
 }
 .block__home-banner-buttons {
-  margin: 25px 0 0;
+  margin: 15px 0 0;
   display: flex;
   gap: 15px;
   align-items: center;
@@ -37,7 +37,7 @@
 }
 
 .each-points {
-  margin-top: 15px;
+  margin-top: 5px;
 }
 
 .block__home-banner-buttons-get-started {

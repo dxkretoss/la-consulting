@@ -2389,7 +2389,7 @@ a.portfolio_btn {
   display: inline-block;
 }
 div#faqs {
-  margin: 80px auto 0px;
+  margin: 80px auto 50px;
 }
 .tabs_title.change_icon svg {
   transform: rotate(90deg);
@@ -2636,6 +2636,8 @@ div#faqs {
   justify-content: center;
   align-items: center;
   color: white;
+  text-align: center; /* Helps on smaller screens */
+  padding: 0 15px; /* Adds breathing room on mobile */
 }
 
 .ready-start-header {
@@ -2648,6 +2650,43 @@ div#faqs {
   font-size: 18px;
   margin-top: 15px;
   color: white;
+}
+
+/* Tablets (width ≤ 1024px) */
+@media (max-width: 1024px) {
+  .ready-start-header {
+    font-size: 42px;
+    margin-top: 60px;
+  }
+
+  .ready-start-text-p {
+    font-size: 16px;
+  }
+}
+
+/* Mobile (width ≤ 760px) */
+@media (max-width: 760px) {
+  .ready-start-header {
+    font-size: 32px;
+    margin-top: 40px;
+  }
+
+  .ready-start-text-p {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+}
+
+/* Small Mobile (width ≤ 480px) */
+@media (max-width: 480px) {
+  .ready-start-header {
+    font-size: 26px;
+    margin-top: 30px;
+  }
+
+  .ready-start-text-p {
+    font-size: 13px;
+  }
 }
 
 .ready-start-video-detail-buttons {
@@ -2675,10 +2714,13 @@ div#faqs {
 }
 
 .why-work-section {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns on large screens */
+  gap: 20px;
+  justify-items: center;
   align-items: start;
   margin-bottom: 30px;
+  padding: 0 15px;
 }
 
 .each-why-work {
@@ -2686,6 +2728,7 @@ div#faqs {
   flex-direction: column;
   align-items: center;
   gap: 10px;
+  padding-right: 10px;
 }
 
 .each-why-work img {
@@ -2697,4 +2740,43 @@ div#faqs {
   font-weight: bold;
   width: 188px;
   text-align: center;
+}
+
+/* Tablet screens (2 columns) */
+@media (max-width: 1024px) {
+  .why-work-section {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+}
+
+/* Mobile screens (1 column if needed) */
+@media (max-width: 600px) {
+  .why-work-section {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .each-why-work {
+    border-right: none;
+    padding-right: 0;
+  }
+
+  .each-why-work span {
+    width: 100%;
+  }
+}
+
+.only-active-mob {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .only-active-mob {
+    display: block;
+  }
+
+  .only-desktop {
+    display: none;
+  }
 }

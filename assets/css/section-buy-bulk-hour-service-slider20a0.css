@@ -1,7 +1,7 @@
 .block__buy-bulk-hour-speed-plus .block__audit-service-card-right-box img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
   object-position: left;
 }
 .block__buy-bulk-hour-gamify-cart-drawer
@@ -59,7 +59,7 @@
 .block__audit-service-card-right-mobile-img {
   display: none !important;
 }
-.block__audit-service-card-details-heading strong{
+.block__audit-service-card-details-heading strong {
   font-weight: 700;
 }
 .block__audit-service-card-details-heading {
@@ -188,6 +188,7 @@
     img.block__audit-service-card-right-mobile-img {
     display: block !important;
     object-position: center;
+    margin-top: 10px;
   }
   .block__buy-bulk-hour-speed-plus .block__audit-service-card-left-box {
     padding-bottom: 0;
