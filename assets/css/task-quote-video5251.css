@@ -1,10 +1,10 @@
 .block__task-quote-video-box {
   display: flex;
   flex-wrap: wrap;
-  padding: 50px;
-  gap: 100px;
+  /* padding: 50px; */
+  /* gap: 100px; */
   border-radius: 16px;
-  margin: 0 0 80px;
+  /* margin: 0 0 80px; */
 }
 .block__task-video-box {
   width: calc(52% - 50px);
@@ -98,9 +98,9 @@
   fill: #fff;
 }
 @media screen and (max-width: 1400px) and (min-width: 768px) {
-  .block__task-quote-video-box {
+  /* .block__task-quote-video-box {
     padding: 50px 30px;
-  }
+  } */
   .block__task-quote-video-box {
     gap: 50px;
   }

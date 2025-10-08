@@ -2728,7 +2728,6 @@ div#faqs {
   flex-direction: column;
   align-items: center;
   gap: 10px;
-  padding-right: 10px;
 }
 
 .each-why-work img {
@@ -2779,4 +2778,31 @@ div#faqs {
   .only-desktop {
     display: none;
   }
+}
+
+.our-process {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns on large screens */
+  gap: 20px; /* space between cards */
+}
+
+/* Responsive for tablets */
+@media (max-width: 1024px) {
+  .our-process {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on medium screens */
+  }
+}
+
+/* Responsive for mobile */
+@media (max-width: 600px) {
+  .our-process {
+    grid-template-columns: 1fr; /* 1 column on small screens */
+  }
+}
+
+.each-processcard {
+  background-color: white;
+  border-radius: 13px;
+  box-shadow: 0px 0px 18.25px 0px #e5deff;
+  padding: 15px;
 }
