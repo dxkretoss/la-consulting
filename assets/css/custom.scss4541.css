@@ -5225,7 +5225,8 @@ svg {
   }
 }
 .partner_logo_section .partner_logo .logo_list .center_logo img {
-  width: 100%;
+  height:180px;
+  width: 250px;
 }
 .partner_logo_section .partner_logo .logo_list .logos {
   display: flex;
